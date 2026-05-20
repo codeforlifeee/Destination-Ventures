@@ -49,7 +49,7 @@ function localLeadWebhookApi() {
             method: 'POST',
             headers,
             body: JSON.stringify({
-              source: 'Traverse Globe Website Popup',
+              source: 'Destination Venture Website Popup',
               submittedAt: new Date().toISOString(),
               ...payload
             })
@@ -256,17 +256,17 @@ export default defineConfig({
         ]
       },
       manifest: {
-        name: 'Traverse Globe',
-        short_name: 'TraverseGlobe',
+        name: 'Destination Venture',
+        short_name: 'DestinationVenture',
         description: 'Your trusted travel partner for curated holiday packages',
         theme_color: '#FF5B04',
         background_color: '#ffffff',
         display: 'standalone',
         icons: [
           {
-            src: '/logo.webp',
+            src: '/logo.png',
             sizes: '192x192',
-            type: 'image/webp'
+            type: 'image/png'
           }
         ]
       }

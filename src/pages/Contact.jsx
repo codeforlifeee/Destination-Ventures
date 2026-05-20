@@ -154,7 +154,7 @@ export default function Contact() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Traverse Globe Karnal Office Location Map"
+              title="Destination Venture Karnal Office Location Map"
             ></iframe>
           </div>
           <div className="mt-4 text-center">

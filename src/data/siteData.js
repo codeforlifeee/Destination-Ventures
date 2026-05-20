@@ -9851,7 +9851,7 @@ export const kashmirPackages = [
 
 // Company Information
 export const companyInfo = {
-  name: "Traverse Globe",
+  name: "Destination Venture",
   tagline: "Travel the world, the right way",
   description: "Your trusted travel partner for unforgettable journeys across the world. We specialize in creating unique travel experiences that you'll cherish forever.",
   email: {
@@ -9878,7 +9878,7 @@ export const companyInfo = {
       city: "Noida"
     },
     dubai: {
-      corporate: "Traverse Globe Middleeast DMCC, 1103, Fortune tower Cluster C, JLT, Dubai, UAE",
+      corporate: "Destination Venture Middleeast DMCC, 1103, Fortune tower Cluster C, JLT, Dubai, UAE",
       branch: "42-02 Opal Tower, Business Bay, Near: Burj Khalifa, Dubai, UAE"
     }
   },
@@ -9898,7 +9898,7 @@ export const feedback = {
     testimonials: [
       {
         rating: 5,
-        text: "Amazing experience in Dubai! The Burj Khalifa was breathtaking and the desert safari was unforgettable. TraverseGlobe made everything perfect from start to finish.",
+        text: "Amazing experience in Dubai! The Burj Khalifa was breathtaking and the desert safari was unforgettable. Destination Venture made everything perfect from start to finish.",
         author: "Priya Sharma, Mumbai",
         avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop"
       },
@@ -9910,7 +9910,7 @@ export const feedback = {
       },
       {
         rating: 5,
-        text: "Perfect honeymoon destination! Dubai Marina and Palm Jumeirah were stunning. Highly recommend TraverseGlobe.",
+        text: "Perfect honeymoon destination! Dubai Marina and Palm Jumeirah were stunning. Highly recommend Destination Venture.",
         author: "Neha & Rohit, Pune",
         avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop"
       }
@@ -10138,7 +10138,7 @@ export const blogPosts = [
     title: "Best Time to Visit Dubai: Weather, Events, and Deals",
     excerpt: "From winter festivals to summer sales, here's how to time your Dubai trip for weather and wallet-friendly fun.",
     category: "Destinations",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-09-02",
     readTime: 8,
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80"
@@ -10149,7 +10149,7 @@ export const blogPosts = [
     title: "Bali for First‑Timers: 7‑Day Itinerary That Balances Beach and Culture",
     excerpt: "Uluwatu sunsets, Ubud rice terraces, waterfalls, and cafés—this balanced plan saves you time and avoids FOMO.",
     category: "Guides",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-08-18",
     readTime: 9,
     image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
@@ -10160,7 +10160,7 @@ export const blogPosts = [
     title: "Thailand vs Bali: Which Tropical Escape Fits Your Travel Style?",
     excerpt: "Beaches, nightlife, visas, budgets, and food—here's a side‑by‑side comparison to help you decide.",
     category: "Tips",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-07-12",
     readTime: 7,
     image: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=800&q=80"
@@ -10171,7 +10171,7 @@ export const blogPosts = [
     title: "48 Hours in Singapore: The Perfect Stopover Plan",
     excerpt: "Short on time? Squeeze in hawker food, Gardens by the Bay, Marina Bay views, and Sentosa highlights.",
     category: "Itineraries",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-06-25",
     readTime: 6,
     image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=80"
@@ -10182,7 +10182,7 @@ export const blogPosts = [
     title: "The Ultimate Guide to UAE Theme Parks for Families",
     excerpt: "From Motiongate to Ferrari World—tickets, height limits, fast passes, and where to stay nearby.",
     category: "Family",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-05-14",
     readTime: 10,
     image: "https://images.unsplash.com/photo-1597073642113-e8c9b0a9c9b4?auto=format&fit=crop&w=800&q=80"
@@ -10193,7 +10193,7 @@ export const blogPosts = [
     title: "10 Common Travel Scams (and How to Avoid Them)",
     excerpt: "From taxi tricks to too‑good‑to‑be‑true tours—spot the signs early and keep your trip stress‑free.",
     category: "Safety",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-04-20",
     readTime: 7,
     image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80"
@@ -10204,7 +10204,7 @@ export const blogPosts = [
     title: "Visa Tips for Indian Travelers: Faster Approvals, Fewer Rejections",
     excerpt: "Documents, timelines, and common pitfalls—plus how our team supports you at every step.",
     category: "Tips",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-03-05",
     readTime: 8,
     image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
@@ -10215,7 +10215,7 @@ export const blogPosts = [
     title: "Dubai on a Budget: Free and Low‑Cost Must‑Dos",
     excerpt: "Old Dubai walks, free viewpoints, abra rides, and local eats that save big without compromise.",
     category: "Deals",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-02-10",
     readTime: 6,
     image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80"
@@ -10226,7 +10226,7 @@ export const blogPosts = [
     title: "Carry‑On Packing Checklist: International Trips",
     excerpt: "The essential list that fits in a cabin bag: meds, tech, docs, and the underrated items pros swear by.",
     category: "Guides",
-    author: "Team Traverse Globe",
+    author: "Team Destination Venture",
     date: "2025-01-19",
     readTime: 5,
     image: "https://images.unsplash.com/photo-1565843248736-8c41e6d2308f?auto=format&fit=crop&w=800&q=80"

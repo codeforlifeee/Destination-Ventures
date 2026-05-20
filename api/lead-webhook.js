@@ -22,7 +22,7 @@ module.exports = async (req, res) => {
     }
 
     const outboundPayload = {
-      source: 'Traverse Globe Website Popup',
+      source: 'Destination Venture Website Popup',
       submittedAt: new Date().toISOString(),
       fullName,
       mobile,

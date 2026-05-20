@@ -1,4 +1,4 @@
-// Category Configuration for Traverse Globe
+// Category Configuration for Destination Venture
 // Centralizes all destination metadata and categorization
 
 export const DESTINATION_TYPES = {

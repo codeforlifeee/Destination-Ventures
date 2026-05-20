@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-darkBlue text-white py-8 md:py-10 mt-8 md:mt-10 border-t-4 border-orange">
       <div className="container-custom">
-        {/* Mobile: Traverse Globe full width, then 2 columns for Quick Links + Contact Us, then Follow Us full width */}
+        {/* Mobile: Destination Venture full width, then 2 columns for Quick Links + Contact Us, then Follow Us full width */}
         {/* Desktop: All 4 sections side by side */}
         <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-4 md:gap-8 lg:gap-10">
           {/* About Section - Full width on mobile, 1 column on desktop */}

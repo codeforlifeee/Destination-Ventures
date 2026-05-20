@@ -17,9 +17,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="transition-opacity hover:opacity-80 duration-200" aria-label={`${companyInfo.name} Home`}>
             <picture>
-              <source srcSet="/logo.webp" type="image/webp" />
+              <source srcSet="/logo.png" type="image/png" />
               <img
-                src="/logo.webp"
+                src="/logo.png"
                 alt={companyInfo.name}
                 className="h-11 md:h-12 object-contain"
                 width="151"
