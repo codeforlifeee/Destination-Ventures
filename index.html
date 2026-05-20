@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Traverse Globe - Your Travel Partner</title>
+    <meta name="title" content="Traverse Globe - Your Travel Partner" />
+    <meta name="description" content="Traverse Globe is your trusted travel partner for curated holiday packages, seamless bookings, and unforgettable experiences across UAE, Bali, Thailand, Singapore, and more." />
+    <meta name="theme-color" content="#FF5B04" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="/logo.webp" />
+    <link rel="apple-touch-icon" href="/logo.webp" />
+    
+    <!-- DNS Prefetch for faster third-party connections -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://connect.facebook.net" />
+    
+    <!-- Preconnect ONLY to most critical origins (limit to 4) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin />
+    
+  <!-- Critical inline CSS for above-the-fold content -->
+    <style>
+      /* Critical CSS - inline for immediate render */
+      *,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+      html{line-height:1.5;-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif}
+      body{margin:0;font-family:inherit;line-height:inherit}
+      #root{min-height:100vh}
+      .loading-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:#fff}
+      .spinner{width:48px;height:48px;border:4px solid #f3f3f3;border-top:4px solid #FF5B04;border-radius:50%;animation:spin 1s linear infinite}
+      @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+    </style>
+    
+    <!-- Font Awesome - Deferred with font-display swap -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" /></noscript>
+    
+    <!-- Optimized fonts with font-display: swap -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" />
+    </noscript>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZWV7ZQ7');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Meta Pixel managed via Google Tag Manager -->
+    
+  <!-- Modulepreload is omitted to avoid any non-standard data: fallback in strict CSP contexts; Vite handles this in production build -->
+    
+    <!-- Cookie Control - Block third-party cookies early -->
+    <script type="module" src="/src/utils/cookieControl.js"></script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZWV7ZQ7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Meta Pixel is injected by GTM; noscript tracking omitted to prevent duplication -->
+    
+    <!-- Loading screen -->
+    <div id="root">
+      <div class="loading-screen">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    
+    <!-- Main app script -->
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Font Awesome is now loaded via @font-face in index.css with font-display: swap -->
+  </body>
+</html>
