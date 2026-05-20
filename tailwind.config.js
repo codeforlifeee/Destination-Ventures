@@ -15,12 +15,12 @@ export default {
         'canva-sans': ['"Canva Sans"', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
-        primary: '#16232A',
-        darkBlue: '#16232A',
-        orange: '#FF5B04',
-        teal: '#075056',
-        lightGray: '#E4EEF0',
-        accent: '#FF5B04',
+        primary: '#1F4E8C',
+        darkBlue: '#1A202C',
+        orange: '#2B6CB0',
+        teal: '#2F7FA3',
+        lightGray: '#F7FAFC',
+        accent: '#81E6D9',
       },
       transitionDuration: {
         400: '400ms',

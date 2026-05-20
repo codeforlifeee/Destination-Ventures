@@ -259,7 +259,7 @@ export default defineConfig({
         name: 'Destination Venture',
         short_name: 'DestinationVenture',
         description: 'Your trusted travel partner for curated holiday packages',
-        theme_color: '#FF5B04',
+        theme_color: '#2B6CB0',
         background_color: '#ffffff',
         display: 'standalone',
         icons: [

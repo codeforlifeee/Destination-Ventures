@@ -221,8 +221,8 @@ export default function DestinationDetail() {
                     onClick={() => scrollToSection(id)} 
                     className={`flex-shrink-0 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 ${
                       activeSection === id 
-                        ? 'bg-gradient-to-r from-[#075056] to-[#0a6b72] text-white shadow-md' 
-                        : 'text-gray-600 hover:bg-[#E4EEF0] hover:text-[#16232A]'
+                        ? 'bg-gradient-to-r from-[#1F4E8C] to-[#2F7FA3] text-white shadow-md' 
+                        : 'text-gray-600 hover:bg-[#EDF2F7] hover:text-[#1A202C]'
                     }`}
                   >
                     <i className={`fa-solid ${icon} mr-2`}></i>
@@ -349,15 +349,15 @@ export default function DestinationDetail() {
           {/* Right Column - Booking Widget */}
           <aside className="lg:col-span-1">
             <div className="bg-white rounded-2xl shadow p-5 lg:sticky lg:top-24">
-              <div className="text-center rounded-xl p-6 bg-gradient-to-br from-[#E4EEF0] via-[#d4f1f4] to-[#bde5e8] shadow-lg border-2 border-[#075056]/10">
-                <div className="text-xs text-[#075056] font-semibold mb-2 uppercase tracking-widest">Starting from</div>
+              <div className="text-center rounded-xl p-6 bg-gradient-to-br from-[#F7FAFC] via-[#EDF2F7] to-[#EDF2F7] shadow-lg border-2 border-[#2F7FA3]/10">
+                <div className="text-xs text-[#2F7FA3] font-semibold mb-2 uppercase tracking-widest">Starting from</div>
                 {detail?.strikePrice && (
                   <div className="text-lg text-red-400 line-through mb-1">₹{Number(detail.strikePrice).toLocaleString('en-IN')}</div>
                 )}
-                <div className="text-5xl font-extrabold text-[#075056] mb-1 drop-shadow-md">
+                <div className="text-5xl font-extrabold text-[#1F4E8C] mb-1 drop-shadow-md">
                   ₹{(detail?.price ? Number(detail.price) : 0).toLocaleString('en-IN')}
                 </div>
-                <div className="text-xs text-[#075056]/80 font-semibold mt-2">Per Person on twin sharing</div>
+                <div className="text-xs text-[#2F7FA3]/80 font-semibold mt-2">Per Person on twin sharing</div>
               </div>
 
               <div className="mt-4">
